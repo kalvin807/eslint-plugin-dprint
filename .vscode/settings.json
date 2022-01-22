@@ -1,5 +1,5 @@
 {
-    "eslint.options": {
-        "rulePaths": ["scripts/internal-rules"]
-    }
+  "eslint.options": {
+    "rulePaths": ["scripts/internal-rules"]
+  }
 }
