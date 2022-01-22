@@ -25,7 +25,7 @@ export type ReplaceDiff = {
 /** The difference type. */
 export type Diff = AddDiff | RemoveDiff | ReplaceDiff
 
-/** The defference iterator. */
+/** The difference iterator. */
 export class DifferenceIterator {
     public static iterate(s0: string, s1: string): Generator<Diff> {
         return new DifferenceIterator(s0, s1).iterate()
