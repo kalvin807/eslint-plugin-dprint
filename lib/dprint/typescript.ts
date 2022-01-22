@@ -1,10 +1,9 @@
+import createDebug from "debug"
 import fs from "fs"
 import path from "path"
-import createDebug from "debug"
 
 const debug = createDebug("eslint:plugin-dprint")
 
-// eslint-disable-next-line no-shadow -- I'm not sure why, but `@types/node` doesn't contain WebAssembly in spite of it has been supported since 8.0.0.
 declare let WebAssembly: any
 
 // Load `dprint-plugin-typescript`.
